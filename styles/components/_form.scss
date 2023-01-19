@@ -1,0 +1,42 @@
+
+@use "../global/variables" as *;
+
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__input{
+        border-radius: 2rem;
+        padding:0.5rem 2rem;
+        border:1px solid $clr-txt;
+        outline: none;
+        background-color: transparent;
+
+
+&::placeholder{
+    text-transform: capitalize;
+    color:$clr-txt;
+}
+
+    }
+
+    &__btn{
+        background-image: linear-gradient(
+          135deg,
+           hsl(0, 80%, 86%), 
+            hsl(0, 74%, 74%)
+        );
+        padding:0.5rem 2rem;
+        margin-left:-3rem;
+        border-radius: 2rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+}
+
+.btn__icon{
+    height: 2rem;
+    stroke: #fff;
+
+}
+

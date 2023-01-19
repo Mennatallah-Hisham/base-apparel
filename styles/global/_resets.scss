@@ -1,0 +1,24 @@
+html{
+    font-size:62.5%;
+    
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    border:none;
+    cursor: pointer;
+    
+}

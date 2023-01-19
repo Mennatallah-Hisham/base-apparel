@@ -1,0 +1,34 @@
+@use "./variables" as *;
+
+h1{
+    font-size: 4rem;
+    font-weight: 400;
+    color:$clr-Dark;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 1rem;
+}
+
+h1 span{
+    display: block;
+    color:$clr-txt;
+    font-weight: 300;
+}
+p{
+    font-size:1.4rem;
+    color:$clr-txt;
+    text-align: center;
+}
+
+
+@media (min-width:48em){
+    h1,p{
+        max-width: 35rem;
+        margin-inline: auto;
+    }
+    p{
+        font-size: 1.6rem;
+        line-height: 1.1;
+    }
+}

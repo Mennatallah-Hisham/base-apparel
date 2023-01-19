@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="./images/favicon-32x32.png"/>
+    <title>base-apparel</title>
+</head>
+<body>
+    <main class="grid">
+        <div class="logo">
+            <img 
+            class="logo__img"
+            src="./images/logo.svg" alt="logo"
+/>        </div>
+<picture>
+    <source media="(min-width:48em)" srcset="./images/hero-desktop.jpg"/>
+    <source media="(max-width:47.8em)" srcset="./images/hero-mobile.jpg"/>
+
+    <img class=" grid__img" src="./images/hero-desktop.jpg" alt="" aria-label="hidden"/>
+
+   </picture>
+        <div class="grid__content">
+
+            <h1>
+                <span>we're</span>
+                comming soon
+            </h1>
+            <p>
+                Hello fellow shoppers! We're currently building our new fashion store. 
+                Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
+
+            <form class="form">
+                <input 
+                class="form__input"
+                type="email" placeholder="email address" aria-label="email address"/>
+                <button 
+                class="form__btn"
+                type="submit">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 btn__icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  </svg>
+                  
+                </button>
+            </form>
+
+
+
+        </div>
+  
+    </main>
+    
+</body>
+</html>
