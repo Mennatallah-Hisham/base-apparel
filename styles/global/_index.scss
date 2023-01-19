@@ -1,4 +1,4 @@
-@use 'resets';
-@use 'typography';
-@use 'variables';
-@use 'layout';
+@forward 'resets';
+@forward 'typography';
+@forward 'variables';
+@forward 'layout';

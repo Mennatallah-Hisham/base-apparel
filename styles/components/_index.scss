@@ -1,3 +1,3 @@
-@use "form";
-@use "logo";
-@use "grid-content";
+@forward "form";
+@forward "logo";
+@forward "grid-content";
